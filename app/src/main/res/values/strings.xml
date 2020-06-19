@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Math</string>
+    <string name="result">结果</string>
+    <string name="math_three_title">数组中重复的数字</string>
+    <string name="math_four_title">二维数组中的查找</string>
+    <string name="math_five_title">字符串替换空格</string>
+    <string name="math_six_title">从尾到头打印链表</string>
+</resources>
