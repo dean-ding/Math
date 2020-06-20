@@ -21,6 +21,7 @@
         <activity android:name=".four.MathFourActivity" />
         <activity android:name=".five.MathFiveActivity" />
         <activity android:name=".six.MathSixActivity" />
+        <activity android:name=".seven.MathSevenActivity" />
     </application>
 
 </manifest>

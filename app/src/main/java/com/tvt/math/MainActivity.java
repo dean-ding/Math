@@ -40,5 +40,6 @@ public class MainActivity extends AppCompatActivity {
         dataArray.add(new ActivityBean(getString(R.string.math_four_title), MathRouterUrl.MathFourAct));
         dataArray.add(new ActivityBean(getString(R.string.math_five_title), MathRouterUrl.MathFiveAct));
         dataArray.add(new ActivityBean(getString(R.string.math_six_title), MathRouterUrl.MathSixAct));
+        dataArray.add(new ActivityBean(getString(R.string.math_seven_title), MathRouterUrl.MathSevenAct));
     }
 }
