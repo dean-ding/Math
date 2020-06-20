@@ -4,5 +4,7 @@
         <attr name="gif" format="reference" />
         <attr name="paused" format="boolean" />
     </declare-styleable>
-
+    <declare-styleable name="CommonTitleView">
+        <attr name="text" format="reference|string" /><!--title内容-->
+    </declare-styleable>
 </resources>

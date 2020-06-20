@@ -23,17 +23,17 @@ class MathSix {
     }
 
     // 递归
-    ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
+    ArrayList<Integer> printListFromTailToHeadUserRecursion(ListNode listNode) {
         ArrayList<Integer> ret = new ArrayList<>();
         if (listNode != null) {
-            ret.addAll(printListFromTailToHead(listNode.next));
+            ret.addAll(printListFromTailToHeadUserRecursion(listNode.next));
             ret.add(listNode.val);
         }
         return ret;
     }
 
     // 头插法构建逆序链表
-    ArrayList<Integer> printListFromTailToHead1(ListNode listNode) {
+    ArrayList<Integer> printListFromTailToHeadUserHead(ListNode listNode) {
         ListNode head = new ListNode(-1);
         while (listNode != null) {
             ListNode memo = listNode.next;

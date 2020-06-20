@@ -5,4 +5,7 @@
     <string name="math_four_title">二维数组中的查找</string>
     <string name="math_five_title">字符串替换空格</string>
     <string name="math_six_title">从尾到头打印链表</string>
+    <string name="math_six_title_1">递归</string>
+    <string name="math_six_title_2">头插法</string>
+    <string name="math_six_title_3">栈</string>
 </resources>
