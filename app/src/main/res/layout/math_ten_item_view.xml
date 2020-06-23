@@ -5,34 +5,36 @@
     android:layout_height="match_parent">
 
     <com.tvt.math.ui.CommonTitleView
-        android:id="@+id/title"
+        android:id="@+id/tvTitle"
         android:layout_width="match_parent"
         android:layout_height="@dimen/screen_size_50dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:text="@string/math_three_title" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.tvt.math.ui.GifView
         android:id="@+id/gifView"
-        android:layout_width="match_parent"
+        android:layout_width="@dimen/screen_size_200dp"
         android:layout_height="@dimen/screen_size_200dp"
-        app:gif="@mipmap/math_three"
-        app:layout_constraintTop_toBottomOf="@id/title" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivImage"
+        android:layout_width="@dimen/screen_size_200dp"
+        android:layout_height="@dimen/screen_size_200dp"
+        android:layout_marginTop="@dimen/screen_size_10dp"
+        android:scaleType="centerInside"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gifView" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/tvMathCode"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/screen_size_10dp"
-        android:background="@mipmap/math_three_code"
-        android:scaleType="centerCrop"
-        app:layout_constraintTop_toBottomOf="@id/gifView" />
-
-    <androidx.appcompat.widget.AppCompatEditText
-        android:id="@+id/etCode"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/screen_size_10dp"
-        app:layout_constraintTop_toBottomOf="@id/tvMathCode" />
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toBottomOf="@id/ivImage" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvResult"
@@ -46,6 +48,6 @@
         android:text="@string/result"
         android:textColor="@android:color/black"
         android:textSize="20sp"
-        app:layout_constraintTop_toBottomOf="@id/etCode" />
+        app:layout_constraintTop_toBottomOf="@id/tvMathCode" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

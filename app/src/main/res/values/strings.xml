@@ -6,7 +6,14 @@
     <string name="math_five_title">字符串替换空格</string>
     <string name="math_six_title">从尾到头打印链表</string>
     <string name="math_seven_title">重建二叉树</string>
+    <string name="math_eight_title">二叉树的下一个结点</string>
+    <string name="math_nine_title">用两个栈实现队列</string>
+    <string name="math_ten_title">斐波那契数列</string>
     <string name="math_six_title_1">递归</string>
     <string name="math_six_title_2">头插法</string>
     <string name="math_six_title_3">栈</string>
+    <string name="math_ten_title_1">斐波那契数列</string>
+    <string name="math_ten_title_2">矩形覆盖</string>
+    <string name="math_ten_title_3">跳台阶</string>
+    <string name="math_ten_title_4">变态跳台阶</string>
 </resources>
