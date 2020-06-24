@@ -13,4 +13,6 @@ public class MathRouterUrl {
     public static final String MathEightAct = "/math/eight";
     public static final String MathNineAct = "/math/nine";
     public static final String MathTenAct = "/math/ten";
+    public static final String Math11Act = "/math/11";
+    public static final String Math12Act = "/math/12";
 }

@@ -5,5 +5,6 @@
     <dimen name="screen_size_50dp">50dp</dimen>
     <dimen name="screen_size_100dp">100dp</dimen>
     <dimen name="screen_size_200dp">200dp</dimen>
+    <dimen name="screen_size_300dp">300dp</dimen>
 
 </resources>
