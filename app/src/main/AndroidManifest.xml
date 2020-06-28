@@ -27,6 +27,9 @@
         <activity android:name=".ten.MathTenActivity" />
         <activity android:name=".m11.Math11Activity" />
         <activity android:name=".m12.Math12Activity" />
+        <activity android:name=".m13.Math13Activity" />
+        <activity android:name=".m14.MathT14Activity" />
+        <activity android:name=".m15.Math15Activity" />
     </application>
 
 </manifest>

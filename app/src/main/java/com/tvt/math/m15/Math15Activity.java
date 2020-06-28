@@ -1,4 +1,4 @@
-package com.tvt.math.m12;
+package com.tvt.math.m15;
 
 import android.os.Bundle;
 import android.view.View;
@@ -10,13 +10,13 @@ import com.tvt.math.router.MathRouterUrl;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-@Route(path = MathRouterUrl.Math12Act)
-public class Math12Activity extends AppCompatActivity {
+@Route(path = MathRouterUrl.Math15Act)
+public class Math15Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.math_12_act);
+        setContentView(R.layout.math_15_act);
 
         initListener();
     }
@@ -25,10 +25,10 @@ public class Math12Activity extends AppCompatActivity {
         findViewById(R.id.tvResult).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Math12 math12 = new Math12();
-                math12.hasPath(new char[]{'a', 'b', 't', 'g', 'c', 'f', 'c', 's', 'j', 'd', 'e', 'h'},
-                        4, 3,
-                        new char[]{'b', 'f', 'c', 'e'});
+                Math15 math15 = new Math15();
+                int number1 = math15.NumberOf1(10000);
+                int number2 = math15.NumberOf1WithLeft(10000);
+                System.out.println("number1 = " + number1 + ", number2 = " + number2);
             }
         });
     }

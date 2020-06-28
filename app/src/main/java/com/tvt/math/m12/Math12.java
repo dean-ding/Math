@@ -1,8 +1,5 @@
 package com.tvt.math.m12;
 
-/**
- * Created: 1895 on 2020/6/24 15:45
- */
 public class Math12 {
 
     private final static int[][] next = {{0, -1}, {0, 1}, {-1, 0}, {1, 0}};

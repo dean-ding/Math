@@ -11,6 +11,9 @@
     <string name="math_ten_title">斐波那契数列</string>
     <string name="math_11_title">旋转数组的最小数字</string>
     <string name="math_12_title">矩阵中的路径</string>
+    <string name="math_13_title">机器人的运动范围</string>
+    <string name="math_14_title">剪绳子</string>
+    <string name="math_15_title">二进制中 1 的个数</string>
 
     <string name="math_six_title_1">递归</string>
     <string name="math_six_title_2">头插法</string>
@@ -19,4 +22,6 @@
     <string name="math_ten_title_2">矩形覆盖</string>
     <string name="math_ten_title_3">跳台阶</string>
     <string name="math_ten_title_4">变态跳台阶</string>
+    <string name="math_14_title_1">动态规划</string>
+    <string name="math_14_title_2">贪心</string>
 </resources>
