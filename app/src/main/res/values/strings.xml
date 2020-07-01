@@ -14,6 +14,8 @@
     <string name="math_13_title">机器人的运动范围</string>
     <string name="math_14_title">剪绳子</string>
     <string name="math_15_title">二进制中 1 的个数</string>
+    <string name="math_16_title">数值的整数次方</string>
+    <string name="math_17_title">打印从 1 到最大的 n 位数</string>
 
     <string name="math_six_title_1">递归</string>
     <string name="math_six_title_2">头插法</string>

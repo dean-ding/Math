@@ -18,4 +18,6 @@ public class MathRouterUrl {
     public static final String Math13Act = "/math/13";
     public static final String Math14Act = "/math/14";
     public static final String Math15Act = "/math/15";
+    public static final String Math16Act = "/math/16";
+    public static final String Math17Act = "/math/17";
 }
