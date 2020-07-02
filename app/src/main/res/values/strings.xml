@@ -16,6 +16,9 @@
     <string name="math_15_title">二进制中 1 的个数</string>
     <string name="math_16_title">数值的整数次方</string>
     <string name="math_17_title">打印从 1 到最大的 n 位数</string>
+    <string name="math_18_title">链表删除节点</string>
+    <string name="math_19_title">正则表达式匹配</string>
+    <string name="math_20_title">表示数值的字符串</string>
 
     <string name="math_six_title_1">递归</string>
     <string name="math_six_title_2">头插法</string>
@@ -26,4 +29,6 @@
     <string name="math_ten_title_4">变态跳台阶</string>
     <string name="math_14_title_1">动态规划</string>
     <string name="math_14_title_2">贪心</string>
+    <string name="math_18_title_1">在 O(1) 时间内删除链表节点</string>
+    <string name="math_18_title_2">删除链表中重复的结点</string>
 </resources>
