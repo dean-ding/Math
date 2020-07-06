@@ -19,6 +19,11 @@
     <string name="math_18_title">链表删除节点</string>
     <string name="math_19_title">正则表达式匹配</string>
     <string name="math_20_title">表示数值的字符串</string>
+    <string name="math_21_title">调整数组顺序使奇数位于偶数前面</string>
+    <string name="math_22_title">链表中倒数第 K 个结点</string>
+    <string name="math_23_title">链表中环的入口结点</string>
+    <string name="math_24_title">反转链表</string>
+    <string name="math_25_title">合并两个排序的链表</string>
 
     <string name="math_six_title_1">递归</string>
     <string name="math_six_title_2">头插法</string>

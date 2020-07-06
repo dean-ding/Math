@@ -23,4 +23,14 @@ public class MathRouterUrl {
     public static final String Math18Act = "/math/18";
     public static final String Math19Act = "/math/19";
     public static final String Math20Act = "/math/20";
+    public static final String Math21Act = "/math/21";
+    public static final String Math22Act = "/math/22";
+    public static final String Math23Act = "/math/23";
+    public static final String Math24Act = "/math/24";
+    public static final String Math25Act = "/math/25";
+    public static final String Math26Act = "/math/26";
+    public static final String Math27Act = "/math/27";
+    public static final String Math28Act = "/math/28";
+    public static final String Math29Act = "/math/29";
+    public static final String Math30Act = "/math/30";
 }
