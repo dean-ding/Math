@@ -3,8 +3,8 @@
     package="com.tvt.math">
 
     <application
-        android:allowBackup="true"
         android:name=".BaseApplication"
+        android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -40,6 +40,22 @@
         <activity android:name=".m23.Math23Activity" />
         <activity android:name=".m24.Math24Activity" />
         <activity android:name=".m25.Math25Activity" />
+        <activity android:name=".m30.Math30Activity" />
+        <activity android:name=".m26.Math26Activity" />
+        <activity android:name=".m27.Math27Activity" />
+        <activity android:name=".m28.Math28Activity" />
+        <activity android:name=".m29.Math29Activity" />
+        <activity android:name=".binder.BinderActivity" />
+
+        <service
+            android:name=".binder.BookService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.tvt.math.service" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>

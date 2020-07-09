@@ -5,6 +5,7 @@ import android.os.Bundle;
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.tvt.math.adapter.MainRouterAdapter;
 import com.tvt.math.bean.ActivityBean;
+import com.tvt.math.router.FrameworkRouterUrl;
 import com.tvt.math.router.MathRouterUrl;
 
 import java.util.ArrayList;
@@ -59,5 +60,11 @@ public class MainActivity extends AppCompatActivity {
         dataArray.add(new ActivityBean(getString(R.string.math_23_title), MathRouterUrl.Math23Act));
         dataArray.add(new ActivityBean(getString(R.string.math_24_title), MathRouterUrl.Math24Act));
         dataArray.add(new ActivityBean(getString(R.string.math_25_title), MathRouterUrl.Math25Act));
+        dataArray.add(new ActivityBean(getString(R.string.math_26_title), MathRouterUrl.Math26Act));
+        dataArray.add(new ActivityBean(getString(R.string.math_27_title), MathRouterUrl.Math27Act));
+        dataArray.add(new ActivityBean(getString(R.string.math_28_title), MathRouterUrl.Math28Act));
+        dataArray.add(new ActivityBean(getString(R.string.math_29_title), MathRouterUrl.Math29Act));
+        dataArray.add(new ActivityBean(getString(R.string.math_30_title), MathRouterUrl.Math30Act));
+        dataArray.add(new ActivityBean(getString(R.string.framework_binder), FrameworkRouterUrl.BinderAct));
     }
 }

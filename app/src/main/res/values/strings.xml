@@ -24,6 +24,11 @@
     <string name="math_23_title">链表中环的入口结点</string>
     <string name="math_24_title">反转链表</string>
     <string name="math_25_title">合并两个排序的链表</string>
+    <string name="math_26_title">树的子结构</string>
+    <string name="math_27_title">二叉树的镜像</string>
+    <string name="math_28_title">对称的二叉树</string>
+    <string name="math_29_title">顺时针打印矩阵</string>
+    <string name="math_30_title">包含 min 函数的栈</string>
 
     <string name="math_six_title_1">递归</string>
     <string name="math_six_title_2">头插法</string>
@@ -36,4 +41,6 @@
     <string name="math_14_title_2">贪心</string>
     <string name="math_18_title_1">在 O(1) 时间内删除链表节点</string>
     <string name="math_18_title_2">删除链表中重复的结点</string>
+
+    <string name="framework_binder">进程间通信</string>
 </resources>
